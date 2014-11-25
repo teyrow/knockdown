@@ -1428,7 +1428,7 @@
                 | (?!(?&lt;=\S)\1).           # Everything besides
                                   # style closer
               )++
-              (?&lt;=\S)\1(?:\s)                # Close
+              (?&lt;=\S)\1(?:\W)                # Close
             )
           </string>
 
